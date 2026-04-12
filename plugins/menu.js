@@ -102,8 +102,8 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
     }
 }
 
-handler.help = ['menu1']
-handler.command = ['menu1']
+handler.help = ['menu']
+handler.command = ['menu']
 handler.register = false
 
 export default handler
